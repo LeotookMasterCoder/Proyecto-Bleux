@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #333;
+  padding: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: initial;
+  align-items: center;
+  background: #0e070fe7;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: auto;
+  width: 70px;
+}
+.download-btn {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  background: none;
+  border: none;
+}
+.producto {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #260161;
+  color: #ffffff;
+}
+
+.producto p {
+  margin: 20px 0;
+}
+
+.producto-botones button {
+  margin: 10px;
+}
+ .precio {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: initial;
+  align-items: center;
+  background: #0c0d19;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+}
+
+.btn-secondario {
+  background-color: blueviolet;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.download-btn {
+  background-color: white;
+  color: #ff6f91;
+  border: 2px solid #ff6f91;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.btn-subscribete1 {
+  background-color: pink;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.btn-subscribete2 {
+  background-color: #0c0d19;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.features img {
+  max-width: 100%;
+  height: 40px;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.features ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.features li {
+  margin: 8px 0;
+}
+.precio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.pago {
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  background: #fafafa;
+}
+footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.redes-sociales span {
+  margin: 10px;
+  font-size: 5px;
+}
+
