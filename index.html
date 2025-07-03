@@ -3,62 +3,70 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Bleux Template</title>
+  <title>Bleux Template Básico</title>
   <link rel="stylesheet" href="styles/archivo.css">
 </head>
 <body>
 
   <nav>
     <img src="assets/img/logo.png" alt="Logo Bleux" class="logo">
-    <ul>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Features</a></li>
-      <li><a href="#">Use case</a></li>
-      <li><a href="#">Pricing</a></li>
-      <li><button class="download-btn">Download</button></li>
-    </ul>
+    <div class="menu">
+      <a href="#">About</a>
+      <a href="#">Features</a>
+      <a href="#">Use case</a>
+      <a href="#">Pricing</a>
+      <button class="download-btn">Download</button>
+    </div>
   </nav>
 
   <header class="producto">
-    <h2>Product Page</h2>
-    <p>We built this template to help you create modern and beautiful marketing pages.</p>
-    <div class="producto-botones">
-      <button class="btn-primario">Download it now</button>
-      <button class="btn-secondario">Features</button>
+    <div class="producto-texto">
+      <h2>Product Page</h2>
+      <p>We built this template to help you create modern and beautiful marketing page.</p>
+      <div class="producto-botones">
+        <button class="btn-descarga">Download it now</button>
+        <button class="btn-secondario">Features</button>
+      </div>
     </div>
+    <div class="producto-imagen"></div>
   </header>
 
   <section class="features">
-    <h3>Alpha Screenshot</h3>
-    <ul>
-      <li>Marketing Page</li>
-      <li>Based on Bootstrap 4</li>
-      <li>Modern and creative</li>
-      <li>Optimized for mobile devices</li>
-    </ul>
+    <h3>Fonctionnalités</h3>
+    <div class="features-contenido">
+      <div class="features-img"></div>
+      <div class="features-texto">
+        <h4>Alpha Screenshot</h4>
+        <p>This is a placeholder text. Replace it with your awesome call to action text. Develop stunning product website easily with this template.</p>
+        <p>Marketing Page<br>Based on Bootstrap 4<br>Modern and creative<br>Optimized for mobile devices</p>
+      </div>
+    </div>
   </section>
 
   <section class="precio">
     <h3>Plans & Pricing</h3>
 
     <div class="pago">
+      <div class="icon-lite"></div>
       <h4>Lite</h4>
       <p>$0 Free</p>
-      <p>Full Components<br>Future Updates<br>Documentation</p>
+      <p>Full Components<br>Future Updates<br>Documentation<br>Customer Support<br>Cool Option</p>
       <button class="btn-subscribete1">Subscribe Now</button>
     </div>
 
     <div class="pago">
+      <div class="icon-standard"></div>
       <h4>Standard</h4>
-      <p> $24 month</p>
-      <p>Full Components<br>Future Updates<br>Documentation</p>
+      <p>$24 per month</p>
+      <p>Full Components<br>Future Updates<br>Documentation<br>Customer Support<br>Cool Option</p>
       <button class="btn-subscribete2">Subscribe Now</button>
     </div>
 
     <div class="pago">
+      <div class="icon-ultimate"></div>
       <h4>Ultimate</h4>
-      <p> $400 year</p>
-      <p>Full Components<br>Future Updates<br>Documentation</p>
+      <p>$400 per user / year</p>
+      <p>Full Components<br>Future Updates<br>Documentation<br>Customer Support<br>Cool Option</p>
       <button class="btn-subscribete2">Subscribe Now</button>
     </div>
   </section>
@@ -75,4 +83,6 @@
 
 </body>
 </html>
+
+
 

@@ -8,127 +8,204 @@
 }
 
 body {
-  background-color: #ffffff;
-  color: #333;
-  padding: 20px;
+  background-color: white;
+  color: black;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
-  flex-direction: initial;
   align-items: center;
-  background: #0e070fe7;
-  padding: 10px 20px;
-  flex-wrap: wrap;
+  background-color: #0f0624;
+  padding: 20px;
 }
 
 .logo {
-  height: auto;
-  width: 70px;
+  width: 50px;
 }
-.download-btn {
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu a {
   text-decoration: none;
-  color: #333;
-  font-weight: bold;
-  background: none;
+  color: white;
+  margin: 0 10px;
+}
+
+.download-btn {
+  background-color: #8400ff;
+  color: white;
   border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
 }
+
 .producto {
-  text-align: center;
-  padding: 50px 20px;
-  background-color: #260161;
-  color: #ffffff;
-}
-
-.producto p {
-  margin: 20px 0;
-}
-
-.producto-botones button {
-  margin: 10px;
-}
- .precio {
   display: flex;
   justify-content: space-between;
-  flex-direction: initial;
   align-items: center;
-  background: #0c0d19;
+  background-color: #1f1235;
+  color: white;
+  padding: 50px 20px;
+}
+
+.producto-texto {
+  max-width: 50%;
+}
+
+.producto-botones {
+  margin-top: 20px;
+}
+.btn-descarga {
+  background-color: #ffff; 
+  color: #ff007f;
+  border: none;
   padding: 10px 20px;
-  flex-wrap: wrap;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.btn-primario {
+  background-color: #ff007f; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin-right: 10px;
 }
 
 .btn-secondario {
-  background-color: blueviolet;
-  color: #ffffff;
-  border: 2px solid #ffffff;
+  background-color: #1f1235;
+  color: white;
+  border: 1px solid white;
   padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 3px;
 }
-.download-btn {
-  background-color: white;
-  color: #ff6f91;
-  border: 2px solid #ff6f91;
-  padding: 10px 20px;
-  border-radius: 5px;
+
+.producto-imagen {
+  width: 250px;
+  height: 400px;
+  background-image: url('../assets/img/phone.png');
+  background-size: cover;
+  background-position: center;
 }
-.btn-subscribete1 {
-  background-color: pink;
-  color: #ffffff;
-  border: 2px solid #ffffff;
-  padding: 10px 20px;
-  border-radius: 5px;
-}
-.btn-subscribete2 {
-  background-color: #0c0d19;
-  color: #ffffff;
-  border: 2px solid #ffffff;
-  padding: 10px 20px;
-  border-radius: 5px;
-}
-section {
+
+.features {
+  background-color: #f7f7f7;
+  padding: 50px 20px;
   text-align: center;
-  padding: 40px 20px;
 }
 
-.features img {
-  max-width: 100%;
-  height: 40px;
-  margin: 20px;
-  border-radius: 8px;
+.features h3 {
+  color: #ff007f;
 }
 
-.features ul {
-  list-style: none;
-  margin-top: 20px;
-}
-
-.features li {
-  margin: 8px 0;
-}
-.precio {
+.features-contenido {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.features-img {
+  width: 300px;
+  height: 200px;
+  background-image: url('../assets/img/laptop.png');
+  background-size: cover;
+  background-position: center;
+  margin-right: 30px;
+}
+
+.features-texto {
+  max-width: 400px;
+  text-align: left;
+}
+
+.features-texto h4 {
+  color: #ff007f;
+}
+
+.precio {
+  background-color: #0f0624;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.precio h3 {
+  margin-bottom: 30px;
 }
 
 .pago {
-  width: 250px;
-  border: 1px solid #ccc;
+  background-color: white;
+  color: black;
   border-radius: 10px;
   padding: 20px;
-  background: #fafafa;
+  margin: 15px;
+  width: 250px;
+  display: inline-block;
 }
+
+.pago h4 {
+  margin: 10px 0;
+}
+
+.pago p {
+  margin: 10px 0;
+}
+
+.btn-subscribete1 {
+  background-color: #ff007f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+
+.btn-subscribete2 {
+  background-color: #1f1235;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+
+.icon-lite {
+  width: 30px;
+  height: 30px;
+  background-image: url('../assets/img/hoja.png');
+  background-size: contain;
+  margin: 0 auto 10px;
+}
+
+.icon-standard {
+  width: 30px;
+  height: 30px;
+  background-image: url('../assets/img/maletin.png');
+  background-size: contain;
+  margin: 0 auto 10px;
+}
+
+.icon-ultimate {
+  width: 30px;
+  height: 30px;
+  background-image: url('../assets/img/nube.png');
+  background-size: contain;
+  margin: 0 auto 10px;
+}
+
 footer {
   background-color: #f0f0f0;
+  text-align: center;
   padding: 20px;
   margin-top: 40px;
-  text-align: center;
-  font-size: 0.9em;
 }
 
 .redes-sociales span {
-  margin: 10px;
-  font-size: 5px;
+  font-size: 20px;
+  margin: 0 10px;
 }
 
